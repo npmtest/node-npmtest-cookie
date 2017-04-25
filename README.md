@@ -1,4 +1,7 @@
-# test coverage for  [cookie (v0.3.1)](https://github.com/jshttp/cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-cookie)
+# npmtest-cookie
+
+#### basic test coverage for  [cookie (v0.3.1)](https://github.com/jshttp/cookie)  [![npm package](https://img.shields.io/npm/v/npmtest-cookie.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cookie) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cookie.svg)](https://travis-ci.org/npmtest/node-npmtest-cookie)
+
 #### HTTP server cookie parsing and serialization
 
 [![NPM](https://nodei.co/npm/cookie.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cookie)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cookie/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cookie/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cookie/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cookie/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cookie/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cookie/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cookie/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cookie/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cookie/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cookie/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cookie/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cookie/build/coverage.html/index.html)
 
@@ -86,7 +89,8 @@
         "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
     },
-    "version": "0.3.1"
+    "version": "0.3.1",
+    "bin": {}
 }
 ```
 
